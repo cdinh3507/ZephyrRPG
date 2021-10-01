@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 475b1b79778dda34ea63378d06bf83c8, type: 3}
+  m_Name: New Dialog
+  m_EditorClassIdentifier: 
+  hasPortraits: 1
+  speakerLeft:
+  - {fileID: 11400000, guid: 74c1244a92c2d384da7b5639e03d4c44, type: 2}
+  - {fileID: 11400000, guid: 930226939c63f3943b38021e145a86fa, type: 2}
+  - {fileID: 11400000, guid: 245812944f692c54cb281a14d865ff9a, type: 2}
+  speakerRight:
+  - {fileID: 11400000, guid: 0412096c504fe08448c01e345617ff6a, type: 2}
+  - {fileID: 11400000, guid: c395c260bf12c774680c31e9f071ed11, type: 2}
+  sentences:
+  - speaker: {fileID: 11400000, guid: 74c1244a92c2d384da7b5639e03d4c44, type: 2}
+    portraitIndex: 0
+    sentText: hi sasdf sd sd fsa dfsa dfs adf sdf asd fsad f sdaf ds fds f sadf sdf
+      sd fsda f sadf sda f fg f asf ds fsdf
+  - speaker: {fileID: 11400000, guid: 930226939c63f3943b38021e145a86fa, type: 2}
+    portraitIndex: 0
+    sentText: 'sup sasdf sd sd fsa dfsa dfs adf sdf asd fsad f sdaf ds fds f sadf
+      sdf sd fsda f sadf sda f fg f asf ds fsdf . . . . . . . . . . . . .  . . .
+      . . .. . . . . . . . . . . . .. . . . . '
+  - speaker: {fileID: 11400000, guid: 0412096c504fe08448c01e345617ff6a, type: 2}
+    portraitIndex: 1
+    sentText: AHHH sasdf sd sd fsa dfsa dfs adf sdf asd fsad f sdaf ds fds f sadf
+      sdf sd fsda f sadf sda f fg f asf ds fsdf
+  - speaker: {fileID: 11400000, guid: 930226939c63f3943b38021e145a86fa, type: 2}
+    portraitIndex: 1
+    sentText: NGOOOOOOHHH sasdf sd sd fsa dfsa dfs adf sdf asd fsad f sdaf ds fds
+      f sadf sdf sd fsda f sadf sda f fg f asf ds fsdf
+  - speaker: {fileID: 11400000, guid: 74c1244a92c2d384da7b5639e03d4c44, type: 2}
+    portraitIndex: 1
+    sentText: waaaaahhhh
+  - speaker: {fileID: 11400000, guid: 245812944f692c54cb281a14d865ff9a, type: 2}
+    portraitIndex: 1
+    sentText: ehhhhhhhhhhh
+  - speaker: {fileID: 11400000, guid: 245812944f692c54cb281a14d865ff9a, type: 2}
+    portraitIndex: 0
+    sentText: hohohohohho
+  - speaker: {fileID: 11400000, guid: c395c260bf12c774680c31e9f071ed11, type: 2}
+    portraitIndex: 0
+    sentText: 'eeeeeeeehfjsdfhlkajsd hfahslfh
+
+'
+  - speaker: {fileID: 11400000, guid: c395c260bf12c774680c31e9f071ed11, type: 2}
+    portraitIndex: 1
+    sentText: 'eeeeeeeeEEEEEEE
+
+'
