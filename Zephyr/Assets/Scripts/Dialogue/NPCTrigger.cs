@@ -8,6 +8,7 @@ public class NPCTrigger : MonoBehaviour
 
     DialogueTrigger dt;
     Animator an;
+    public Item it;
     public DialogueManager dialogueManager;
     private bool touchPlayer;
     private bool rightDirection;
@@ -95,7 +96,15 @@ public class NPCTrigger : MonoBehaviour
             if (rightDirection)
             {
                 Debug.Log("trigger");
-                dt.TriggerDialogue();
+                if (dt != null)
+                {
+                    dt.TriggerDialogue();
+                } else
+                if (it != null)
+                {
+                    Debug.Log("item");
+                    Destroy(gameObject);
+                }
             }
 
         }
